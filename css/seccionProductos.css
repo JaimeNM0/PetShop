@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin: 10px 8% 20px 1%;
+}
+
+#seccion_productos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#filtros {
+    width: 400px;
+    height: 100%;
+    padding: 10px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    background-color: #67909F;
+}
+
+#filtros>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#filtros>#fila_filtro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#filtros>div>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+div>#productos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+#productos>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.producto {
+    border-radius: 30px;
+    padding: 20px;
+    background-color: #8DABB6;
+}
+
+.producto>div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.img_producto img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.categoria {
+    font-size: 20px;
+}
+
+.titulo {
+    font-size: 24px;
+}
+
+.producto>.opiniones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.opiniones>.estrellas {
+    display: flex;
+}
+
+.opiniones>.opinon {
+    display: flex;
+    gap: 5px;
+    font-size: 16px;
+}
+
+.producto>.dinero {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 24px;
+}
+
+.producto>.boton {
+    margin-top: 15px;
+}
+
+.boton>input {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #EFD52E;
+}
