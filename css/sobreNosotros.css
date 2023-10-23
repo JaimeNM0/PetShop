@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    margin: 10px 8% 20px 8%;
+}
+
+#titulo_cliente {
+    display: flex;
+    justify-content: center;
+}
+
+#titulo_cliente h1 {
+    margin: 20px 0px;
+    font-size: 40px;
+}
+
+#contenido {
+    padding: 40px;
+    border-radius: 50px;
+    background-color: #B2C6CE;
+}
+
+#contenido>div>h2 {
+    font-size: 28px;
+}
+
+#contenido>div>p {
+    font-size: 16px;
+}
+
+#contenido>div>p.caracteristicas{
+    font-size: 20px;
+}
