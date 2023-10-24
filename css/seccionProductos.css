@@ -4,43 +4,56 @@ body {
 }
 
 main {
-    margin: 10px 8% 20px 1%;
+    margin: 20px 8% 30px 1%;
 }
 
 #seccion_productos {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 30px;
 }
 
 #filtros {
     width: 400px;
-    height: 100%;
+}
+
+#filtros>div {
+    display: flex;
+    flex-direction: column;
+    /*position: fixed;*/
+    width: 160px;
+    height: auto;
     padding: 10px;
     padding-bottom: 50px;
     border-radius: 30px;
     background-color: #67909F;
 }
 
-#filtros>div {
+#filtros>div>div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#filtros>#fila_filtro {
+#filtros>div>div#fila_filtro {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-#filtros>div>div {
+#filtros>div>div>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
+
+
+
+
+
+
 
 div>#productos {
     display: flex;

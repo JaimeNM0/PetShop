@@ -1,6 +1,10 @@
-document.getElementById("toggleBtn").addEventListener("click", function () {
-    var dropdown = document.getElementById("dropdown");
-    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
-    var menu = document.querySelector(".menu");
-    menu.classList.toggle("active");
-});
+window.onload = function () {
+    let filtros = document.getElementById("filtros");
+    let contador = 0;
+    window.addEventListener('scroll', () => {
+        let value = window.scrollY;
+        
+        filtros.style.marginTop = value * 1 + 'px';
+
+    });
+};

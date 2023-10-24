@@ -28,9 +28,11 @@ main {
 }
 
 #contenido>div>p {
+    text-align: justify;
     font-size: 16px;
 }
 
-#contenido>div>p.caracteristicas{
+#contenido>div>p.caracteristicas {
+    text-align: left;
     font-size: 20px;
 }

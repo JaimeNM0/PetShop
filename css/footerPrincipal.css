@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+footer {
+    background-color: #407688;
+    padding: 10px;
+}
+
+footer>#footer_principal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 2% 20px 2%;
+}
+
+#footer_principal>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+
+#metodos>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    font-size: 24px;
+}
+
+#metodos>div>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+
+#metodos>div>div>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#metodo_pago img {
+    width: 60px;
+    height: 100%;
+    ;
+}
+
+#servicio_entrega img {
+    width: 60px;
+    height: auto;
+}
+
+#pago_seguro img {
+    width: 110px;
+    height: auto;
+}
+
+#redes_sociales img {
+    width: 40px;
+    height: auto;
+}
+
+div>#footer_sobre_nosotros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+#footer_sobre_nosotros>div {
+    margin: 0px 3%;
+}
+
+#pet_shop_2023 {
+    font-size: 18px;
+}
+
+@media (max-width: 1000px) {
+    #metodos>div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    div>#metodos {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
