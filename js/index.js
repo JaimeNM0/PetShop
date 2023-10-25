@@ -1,4 +1,16 @@
 window.onload = function () {
+    window.addEventListener('resize', function () {
+        const img = document.getElementById("img_fiesta");
+        const pantallaWidth = window.innerWidth;
+        console.log(pantallaWidth);
+
+        if (pantallaWidth <= 950) {
+            img.src = "../img/index/fiesta_resulse.png";
+        } else {
+            img.src = "../img/index/fiesta.png";
+        }
+    });
+
     document.getElementById("inicio").addEventListener('click', function () {
         window.location.href = "./../html/index.html";
     });

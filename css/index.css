@@ -1,0 +1,212 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 10px 4% 20px 4%;
+}
+
+main>div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+div>#img_fondo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+#img_fondo>div {
+    background-position: center center;
+    text-align: center;
+    width: 33%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#marcas_exclusivas {
+    background-image: url(./../img/index/nuestras_marcas.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+#envio_gratis {
+    background-image: url(./../img/index/envio.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+#opiniones_sobre_productos {
+    background-image: url(./../img/index/opiniones_sobre_productos.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+#img_fondo>div>div {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.titulo_img_fondo {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.subtitulo_img_fondo {
+    font-size: 18px;
+}
+
+#img_fondo>div>div.boton_inferior {
+    justify-content: right;
+}
+
+#img_fondo>div>div.boton_inferior>img {
+    background-color: orange;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+div.titulo_index {
+    margin-bottom: 10px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+#fiesta img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#productos_animales {
+    display: flex;
+    gap: 10px;
+}
+
+#productos_animales>div {
+    width: 50%;
+}
+
+#productos_animales>div>.titulo_productos_animales {
+    justify-content: flex-start;
+    gap: 10px;
+    width: auto;
+}
+
+#productos_animales>div>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.ver_todos {
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: green;
+    /*text-decoration: underline;*/
+}
+
+#productos_animales>div>div>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.img_productos_animales>div {
+    align-items: center;
+    padding: 10px;
+    width: 25%;
+    border: black 1px solid;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img_productos_animales>div.perfil_animales {
+    border: black 1px none;
+}
+
+.img_productos_animales img {
+    width: 120px;
+    height: 120px;
+    border-bottom: black 1px solid;
+}
+
+.img_productos_animales img.img_perfil_animales {
+    width: auto;
+    height: auto;
+    border-bottom: black 1px none;
+}
+
+@media (max-width: 1300px) {
+    #productos_animales {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #productos_animales>div {
+        width: auto;
+    }
+}
+
+@media (max-width: 1150px) {
+    div>#img_fondo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div>#img_fondo>div {
+        width: 56%;
+    }
+
+    #marcas_exclusivas {
+        padding: 20px 0px;
+    }
+
+    #envio_gratis {
+        padding: 20px 0px;
+    }
+
+    #opiniones_sobre_productos {
+        padding: 20px 0px;
+    }
+
+    #img_fondo>div>div.boton_inferior>img {
+        margin-right: 10px;
+        margin-bottom: -10px;
+    }
+}
+
+@media (max-width: 950px) {
+    div>#img_fondo>div {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media (max-width: 800px) {
+    div>#img_fondo>div {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    div>#img_fondo>div {
+        width: 100%;
+        height: auto;
+    }
+}
